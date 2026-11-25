@@ -1,0 +1,6 @@
+IMAGE          CREATED        CREATED BY                                      SIZE      COMMENT
+3aa4e1ccf117   6 hours ago    CMD ["dnsmasq" "-k" "-d" "--no-resolv" "--lo…   0B        buildkit.dockerfile.v0
+<missing>      6 hours ago    EXPOSE [53/tcp 53/udp]                          0B        buildkit.dockerfile.v0
+<missing>      6 hours ago    RUN /bin/sh -c apk add --no-cache dnsmasq # …   459kB     buildkit.dockerfile.v0
+<missing>      7 months ago   CMD ["/bin/sh"]                                 0B        buildkit.dockerfile.v0
+<missing>      7 months ago   ADD alpine-minirootfs-3.20.10-x86_64.tar.gz …   8.47MB    buildkit.dockerfile.v0
